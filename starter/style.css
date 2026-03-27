@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +8,8 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #1a1a2e;
-  color: #e0e0e0;
+  background-color: #f5f0e8;
+  color: #3d3529;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,13 +18,15 @@ body {
 header {
   text-align: center;
   padding: 16px;
-  background-color: #16213e;
-  border-bottom: 2px solid #0f3460;
+  background-color: #ebe4d8;
+  border-bottom: 2px solid #c9b99a;
 }
 
 header h1 {
-  font-size: 1.5rem;
-  color: #e94560;
+  font-family: "Press Start 2P", monospace;
+  font-size: 1.2rem;
+  color: #b0603a;
+  letter-spacing: 2px;
 }
 
 main {
@@ -32,12 +36,12 @@ main {
 
 .toolbar {
   width: 200px;
-  background-color: #16213e;
+  background-color: #ebe4d8;
   padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  border-right: 2px solid #0f3460;
+  border-right: 2px solid #c9b99a;
 }
 
 .canvas-container {
@@ -49,7 +53,7 @@ main {
 }
 
 canvas {
-  border: 2px solid #0f3460;
+  border: 2px solid #c9b99a;
   cursor: crosshair;
 }
 
@@ -63,7 +67,7 @@ canvas {
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #a0a0a0;
+  color: #8a7d6b;
 }
 
 .tool-buttons {
@@ -75,22 +79,22 @@ canvas {
   width: 48px;
   height: 48px;
   font-size: 1.4rem;
-  border: 2px solid #0f3460;
+  border: 2px solid #c9b99a;
   border-radius: 8px;
-  background-color: #1a1a2e;
-  color: #e0e0e0;
+  background-color: #f5f0e8;
+  color: #3d3529;
   cursor: pointer;
   transition: background-color 0.15s, border-color 0.15s;
 }
 
 .tool-btn:hover {
-  background-color: #0f3460;
+  background-color: #e2d9c8;
 }
 
 .tool-btn.active {
-  background-color: #e94560;
-  border-color: #e94560;
-  color: #ffffff;
+  background-color: #b0603a;
+  border-color: #b0603a;
+  color: #f5f0e8;
 }
 
 .color-palette {
@@ -102,7 +106,7 @@ canvas {
 .color-swatch {
   width: 100%;
   aspect-ratio: 1;
-  border: 2px solid #0f3460;
+  border: 2px solid #c9b99a;
   border-radius: 4px;
   cursor: pointer;
   transition: border-color 0.15s, transform 0.15s;
@@ -113,7 +117,7 @@ canvas {
 }
 
 .color-swatch.active {
-  border-color: #ffffff;
+  border-color: #b0603a;
   transform: scale(1.15);
 }
 
@@ -122,7 +126,7 @@ canvas {
   align-items: center;
   gap: 8px;
   font-size: 0.85rem;
-  color: #a0a0a0;
+  color: #8a7d6b;
   cursor: pointer;
 }
 
@@ -137,10 +141,10 @@ canvas {
 
 select {
   padding: 8px;
-  border: 2px solid #0f3460;
+  border: 2px solid #c9b99a;
   border-radius: 8px;
-  background-color: #1a1a2e;
-  color: #e0e0e0;
+  background-color: #f5f0e8;
+  color: #3d3529;
   font-size: 0.9rem;
   cursor: pointer;
 }
@@ -150,8 +154,8 @@ select {
   padding: 12px;
   border: none;
   border-radius: 8px;
-  background-color: #e94560;
-  color: #ffffff;
+  background-color: #b0603a;
+  color: #f5f0e8;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
@@ -159,7 +163,7 @@ select {
 }
 
 .export-btn:hover {
-  background-color: #c73652;
+  background-color: #965030;
 }
 
 @media (max-width: 640px) {
@@ -172,7 +176,7 @@ select {
     flex-direction: row;
     flex-wrap: wrap;
     border-right: none;
-    border-bottom: 2px solid #0f3460;
+    border-bottom: 2px solid #c9b99a;
     gap: 12px;
     padding: 12px;
   }
