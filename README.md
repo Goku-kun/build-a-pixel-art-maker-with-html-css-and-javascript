@@ -1,10 +1,10 @@
-# Build a Pixel Art Creator with HTML, CSS, and JavaScript
+# Build a Pixel Art Maker with HTML, CSS, and JavaScript
 
 Learn to build a browser-based pixel art editor using HTML Canvas, 2D arrays, and vanilla JavaScript. Draw, erase, flood fill, and export your pixel art as PNG.
 
 **Prerequisites:** HTML, CSS, JavaScript fundamentals
 
-**[Live Demo](https://goku-kun.github.io/build-a-pixel-art-creator-with-html-css-and-javascript/completed/)**
+**[Live Demo](https://goku-kun.github.io/build-a-pixel-art-maker-with-html-css-and-javascript/completed/)**
 
 ## Features
 
@@ -19,7 +19,7 @@ Learn to build a browser-based pixel art editor using HTML Canvas, 2D arrays, an
 ## Project Structure
 
 ```
-pixel-art-creator/
+pixel-art-maker/
 ├── starter/           # Start here — has TODOs to fill in
 │   ├── index.html
 │   ├── style.css
